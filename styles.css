@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    
+    
+    
+}
+   
+
+h1 {
+    font-size: 40px;
+    color:rgb(95, 157, 99);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inf{
+    font-size: 20px;
+    font-weight: 700;
+    color:#481677;
+}
+
+p{
+    width: 70%;
+}
+
+main{
+   margin-left: 180px;
+}
+
+.about{
+   
+    background-color: rgb(130, 213, 136);
+    top: 20px
+}
+
+
+nav a{
+    position: absolute;
+    left:  -80px;
+    transition: 0.3s;
+    width: 100px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+   border-radius: 0px 5px 5px 0px;
+
+   
+}
+
+
+a:hover{
+    left: 0;
+}
+
+
+.blog{
+    top: 80px;
+    background-color: rgb(130, 213, 136);
+}
+
+.projects{
+    top: 140px;
+        background-color: rgb(130, 213, 136);
+}
+
+.contact{
+     top: 200px;
+        background-color: rgb(130, 213, 136);
+}
+
+
+img{
+    opacity: 0.6;
+    border-radius: 20px;
+    border: 0px solid  rgb(130, 213, 136) ;
+}
+
+
+img:hover{
+     transition: 0.3s;
+       opacity: 1;
+    border: 10px solid  rgb(130, 213, 136) ;
+    padding: 10px;
+}
+
